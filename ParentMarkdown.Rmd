@@ -1,0 +1,31 @@
+---
+title: "Machine Learning in chemoradiotherapy"
+author: "José Antonio Muñoz Rojo and Rafael Trapero Vílchez"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    theme: paper
+    code_folding: "show"
+    number_section: true
+    toc: true
+    toc_float: true
+---
+
+# HOLA
+## Hola2
+
+# Adios
+### Adios 1.3
+## Adios2
+### Adios 3
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r child1}
+cat("Hola")
+```
+
+```{r child2}
+```
+
